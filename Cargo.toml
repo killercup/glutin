@@ -50,3 +50,6 @@ dwmapi-sys = "0.1"
 osmesa-sys = "0.1.0"
 x11-dl = "2.4"
 image = { version = "0.12", optional = true }
+
+[replace]
+"cocoa:0.8.1" = { git = "https://github.com/Eijebong/cocoa-rs.git", branch = "bump_graphics" }
